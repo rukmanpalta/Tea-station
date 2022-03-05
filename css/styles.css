@@ -180,7 +180,7 @@ navbar ul
   background: var(--clr-grey-10);
   z-index: 2;
   box-shadow: 2px 0 2px rgba(0, 0, 0, 0.2);
-  /* hide navbar */
+  /* hide navbar initially */
   transform: translateX(-100%);
   transition: var(--transition);
 }
@@ -350,7 +350,7 @@ navbar ul
   font-size: 3rem;
   display: inline-block;
   margin-bottom: 1.25rem;
-  /* now to make this margin-bottom work change span display to block as span is an inline element and thus top bottom margins wont work or respect by browser */
+  /* now to make this margin-bottom work change span display to inline-block as span is an inline element and thus top bottom margins wont work or respect by browser */
   transition: var(--transition);
 }
 
